@@ -6,8 +6,6 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "SWeapon.h"
-#include <iostream>
-#include <memory>
 
 /*
 	Work on this for logging and memory analysis.
@@ -41,7 +39,6 @@ static void PrintMemoryUsage()
 }
 */
 
-// Sets default values
 ASCharacter::ASCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
